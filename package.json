@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "./src/main.js",
   "devDependencies": {
+    "@testing-library/svelte": "^1.7.1",
     "cross-env": "^5.2.0",
     "css-loader": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
@@ -22,5 +23,8 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public"
+  },
+  "dependencies": {
+    "svelte-spa-router": "^1.2.0"
   }
 }
