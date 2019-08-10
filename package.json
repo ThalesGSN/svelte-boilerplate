@@ -25,6 +25,7 @@
     "dev": "webpack-dev-server --content-base public"
   },
   "dependencies": {
+    "dotenv": "^8.0.0",
     "svelte-spa-router": "^1.2.0"
   }
 }
